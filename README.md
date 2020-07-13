@@ -6,5 +6,6 @@ and if that fails sends email :
 -   clone the project
 -   run composer install
 -   generate app key
+-   add email and SMS provider info in .env file 
 -   run php artisan serve
--   test the api [localhost:8000/api/v1/verify] , [method: POST] , [data: email , phone-number]
+-   test the api [localhost:8000/api/v1/verify] , [method: POST] , [data: email , phone]
